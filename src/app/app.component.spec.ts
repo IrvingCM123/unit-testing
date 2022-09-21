@@ -33,5 +33,5 @@ describe('AppComponent Test Suite', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('Parcial2 app is running!');
   });
 
-  //Cambios
+  //Cambios aqui
 });
