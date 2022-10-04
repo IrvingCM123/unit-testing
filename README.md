@@ -1,5 +1,9 @@
 # Parcial2
+<<<<<<< HEAD
 ewes
+=======
+ees
+>>>>>>> 0d3b02299e68c77654bfa22a8963ffe262c5c505
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
