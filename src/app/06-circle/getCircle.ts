@@ -10,7 +10,7 @@ export function circle(x: number) {
   }
 
   if ( x > 0 ) {
-    resultado = x * 3.1416;
+    resultado = (x * x) * 3.1416;
   }
 
   return resultado;
