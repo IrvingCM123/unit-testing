@@ -2,6 +2,7 @@ import {compute } from './compute';
 
 let number = -3;
 let number1 = 2;
+let number2 = 0;
 
 describe('compute', () => {
   it('should return 0 if input is negative', () => {
@@ -9,9 +10,20 @@ describe('compute', () => {
     expect(result).toBe(0);
   })
 
-  it ('should increment the input if it is positive', () => {
-    const result1 = compute(number1);
-    expect(result1).toBe(2);
+})
+
+describe('compute', () => {
+  it('should return 2 if input is positive', () => {
+    const result = compute(number1);
+    expect(result).toBe(2);
+  })
+})
+
+
+describe('compute', () => {
+  it('should return 2 if input is positive', () => {
+    const result = compute(number2);
+    expect(result).toBe(2);
   })
 })
 
